@@ -23,7 +23,6 @@ nomeDoProjeto
 
 Mas também poderá encontrar projetos com a seguinte estruturação:
 
-
 ```markdown
 nomeDoProjeto/
   ├── index.html
@@ -36,8 +35,7 @@ nomeDoProjeto/
        	    └── script.js
 ```
 
-
-## 🤝Contribuindo
+## 🤝Contribuições
 
 Se você gostaria de contribuir para este repositório, sinta-se à vontade para adicionar seus próprios projetos ou melhorar os existentes. Basta criar uma nova pasta na raiz do repositório com os arquivos HTML, CSS e JS relacionados ao seu projeto. Segue abaixo um tutorial de como realizar as contribuições:
 
