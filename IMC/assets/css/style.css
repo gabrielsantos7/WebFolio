@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Geologica", sans-serif;
+  font-size: 1em;
+  background-image: url(../img/bg.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Muda a cor do texto selecionado no site */
+::selection {
+  background-color: #2f7588;
+}
+
+/* estilo da área de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #2f7588;
+  width: 6px;
+  height: 6px;
+}
+
+/* estilo da própria barra de rolagem */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* parte móvel que permite a rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  filter: brightness(0.9) contrast(1.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 40px;
+  color: #1a1a1a;
+}
+
+form input:focus {
+  outline: 1px solid rgb(69, 12, 169);
+}
+
+form button {
+  border: none;
+  background-color: rgb(69, 12, 169);
+  height: 40px;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background-color: rgb(80, 27, 170);
+}
+
+form button:active {
+  background-color: rgb(21, 48, 198);
+}
+
+.resultado-valido, .resultado-invalido{
+  background-color: rgb(55, 190, 122);
+  padding: 20px;
+}
+
+.resultado-invalido{
+  background-color: rgb(230, 39, 39);
+}
