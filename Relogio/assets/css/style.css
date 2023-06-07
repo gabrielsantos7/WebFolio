@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Geologica", sans-serif;
+  font-size: 1em;
+  background: linear-gradient(0, #120c56, #000000);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  place-items: center;
+
+  line-height: 85px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.wrapper {
+  width: 360px;
+  height: 100px;
+  background: linear-gradient(135deg, #480e6e 25%, #b91313 50%, #5d5d 100%);
+  border-radius: 10px;
+  cursor: default;
+  animation: animate 2s linear infinite;
+}
+
+.wrapper .display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1b1b1b;
+  width: 345px;
+  height: 85px;
+  border-radius: 5px;
+  z-index: 9;
+}
+
+.wrapper .display #time {
+  background: linear-gradient(135deg, #902dd1 25%, #b91313 50%, #5d5d 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 20s linear infinite;
+  font-size: 40px;
+}
+
+@keyframes animate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.wrapper .display,
+.wrapper span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper span {
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 10px;
+}
+
+.wrapper span:first-child {
+  filter: blur(10px);
+}
+
+.wrapper span:last-child {
+  filter: blur(20px);
+}
+
+#date {
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+}
+
+.stars {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  box-shadow:
+    10px 10px white,
+    50px 30px white,
+    100px 80px white,
+    80px 120px white,
+    150px 200px white,
+    200px 50px white,
+    250px 130px white,
+    300px 20px white,
+    350px 300px white,
+    400px 200px white,
+    450px 80px white,
+    500px 160px white,
+    550px 100px white,
+    600px 250px white,
+    650px 140px white,
+    700px 180px white,
+    750px 300px white,
+    800px 40px white,
+    850px 120px white,
+    900px 220px white,
+    950px 280px white,
+    1000px 400px white,
+    1050px 90px white,
+    1100px 200px white,
+    1150px 350px white,
+    1200px 150px white,
+    1250px 270px white,
+    1300px 70px white,
+    1350px 310px white,
+    1400px 180px white,
+    1450px 100px white,
+    50px 420px white,
+    200px 520px white,
+    350px 480px white,
+    500px 380px white,
+    650px 550px white,
+    800px 450px white,
+    950px 420px white,
+    1100px 480px white,
+    1250px 520px white,
+    1400px 380px white,
+    1450px 420px white,
+    1600px 520px white,
+    1750px 480px white,
+    1900px 380px white;
+
+  animation: anim-stars 15s linear infinite;
+}
+
+.stars2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 
+    15px 15px white,
+    125px 35px white,
+    50px 80px white,
+    10px 120px white,
+    275px 90px white,
+    230px 10px white,
+    120px 130px white,
+    300px 130px white,
+    220px 115px white,
+    60px 300px white,
+    180px 280px white,
+    300px 320px white,
+    420px 270px white,
+    540px 300px white,
+    660px 320px white,
+    780px 280px white,
+    900px 300px white,
+    1020px 320px white,
+    1140px 280px white,
+    1260px 300px white;
+  
+  animation: anim-stars 20s linear infinite;
+}
+
+
+@keyframes anim-stars {
+  from {
+      transform: translateY(0px);
+  }
+  to {
+      transform: translateY(-150px);
+  }
+}
