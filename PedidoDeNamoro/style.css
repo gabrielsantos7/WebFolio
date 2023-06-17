@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   background-color: #fff;
+}
+
+h2{
+   color: rgb(204, 55, 55);
+   padding: 20px;
+   font-family: 'Itim', sans-serif;
+   font-size: 1.75rem;
+}
+
+#container{
+   display: block;
+   margin: 20px auto;
+   text-align: center;
+}
+
+button{
+   background-color: rgb(204, 55, 55);
+   border: none;
+   padding: 15px 30px;
+   border-radius: 10px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 900;
+   font-size: 1.25rem;
+}
+
+#btnNo{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   margin-left: 70px;
+   z-index: 9;
+}
+
+#btnYes{
+   margin-right: 150px;
+}
+
+#btnYes:hover{
+   cursor: pointer;
+   background-color: rgb(191, 30, 30);
+}
+
+img{
+   max-width: 100%;
+}
