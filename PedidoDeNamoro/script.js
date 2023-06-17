@@ -28,6 +28,7 @@ btnYes.addEventListener("click", () => {
 
 btnNo.addEventListener("click", changePosition);
 btnNo.addEventListener("mouseover", changePosition);
+btnNo.addEventListener("touchstart", changePosition);
 
 function changePosition() {
   btnNo.style.position = "absolute";
