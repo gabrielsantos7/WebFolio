@@ -2,7 +2,7 @@
 
 Um projeto especial que simula um pedido de namoro irrecusável onde o pretendente utiliza um botão "Sim" e um botão "Não", mas o "Não" é apenas para efeito visual, já que a resposta é sempre positiva. ✨
 
-Acesse o link: gabrielsantos7.github.io/PedidoDeNamoro
+Acesse o link: [https://gabrielsantos7.github.io/WebFolio/PedidoDeNamoro](https://gabrielsantos7.github.io/WebFolio/PedidoDeNamoro/)
 
 ## ℹ️ Descrição
 
