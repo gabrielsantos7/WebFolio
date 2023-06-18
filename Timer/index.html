@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cronômetro</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="container">
+         <h1>CRONÔMETRO</h1>
+         <div class="timer">
+           <div class="time" id="minutes">00</div>
+           <div class="separator">:</div>
+           <div class="time" id="seconds">00</div>
+           <div class="separator">:</div>
+           <div class="time" id="milliseconds">000</div>
+         </div>
+         <div class="buttons">
+           <button class="btn" id="startBtn">Iniciar</button>
+           <button class="btn" id="pauseBtn" style="display: none">Pausar</button>
+           <button class="btn" id="resumeBtn" style="display: none">
+             Continuar
+           </button>
+           <button class="btn" id="resetBtn" style="display: none">Resetar</button>
+         </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
