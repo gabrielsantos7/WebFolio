@@ -4,6 +4,7 @@ const selectors = {
   gif: "#gif",
   container: "#container",
   txt: "#txt",
+  audio: "#audio",
 };
 
 const btnYes = document.querySelector(selectors.btnYes);
@@ -11,6 +12,7 @@ const btnNo = document.querySelector(selectors.btnNo);
 const gif = document.querySelector(selectors.gif);
 const container = document.querySelector(selectors.container);
 const txt = document.querySelector(selectors.txt);
+const audio = document.querySelector(selectors.audio);
 
 const pageWidth = window.innerWidth;
 const pageHeight = window.innerHeight;
@@ -24,6 +26,7 @@ btnYes.addEventListener("click", () => {
   container.removeChild(btnNo);
 
   txt.innerText = "Fez a escolha certa!❤";
+  audio.play();
 });
 
 btnNo.addEventListener("click", changePosition);

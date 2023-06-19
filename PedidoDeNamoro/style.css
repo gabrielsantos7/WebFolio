@@ -7,6 +7,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body{
@@ -55,4 +59,8 @@ button{
 
 img{
    max-width: 100%;
+   -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
 }
