@@ -4,7 +4,7 @@
 
 Este é um projeto de uma calculadora simples desenvolvida utilizando as tecnologias web básicas: HTML, CSS e JavaScript. A calculadora possui uma interface intuitiva e permite a realização de operações matemáticas básicas, como adição, subtração, multiplicação e divisão.
 
-Disponível na URL: [https://gabrielsantos7.github.io/WebFolio/Calculadora]([https://gabrielsantos7.github.io/WebFolio/C](https://gabrielsantos7.github.io/WebFolio/ToDoList)alculadora)
+Disponível na URL: [https://gabrielsantos7.github.io/WebFolio/Calculadora](https://gabrielsantos7.github.io/WebFolio/Calculadora)
 
 ## Funcionalidades ✨
 
