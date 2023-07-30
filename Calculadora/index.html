@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="topo">
+        <label class="switch">
+          <span class="switch-text" id="light"
+            ><img src="sun.png" alt="sun" height="25px"
+          /></span>
+
+          <div class="switch-wrapper">
+            <input type="checkbox" id="btnTheme" />
+            <span class="switch-button"></span>
+          </div>
+
+          <span class="switch-text" id="dark"
+            ><img src="moon.png" alt="moon"
+          /></span>
+        </label>
+      </div>
+    </header>
+
+    <div class="grid-container">
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+
+      <button data-all-clear class="span-two operator-light">AC</button>
+      <button data-delete class="span-two operator-light">DEL</button>
+      <button data-operator class="operator-light">/</button>
+      <button data-operator class="operator-light">%</button>
+      <button data-operator class="operator-light">^</button>
+      <button data-operator class="operator-light">÷</button>
+
+      <button data-number class="numeric-light">7</button>
+      <button data-number class="numeric-light">8</button>
+      <button data-number class="numeric-light">9</button>
+      <button data-operator class="operator-light">×</button>
+
+      <button data-number class="numeric-light">4</button>
+      <button data-number class="numeric-light">5</button>
+      <button data-number class="numeric-light">6</button>
+      <button data-operator class="operator-light">–</button>
+
+      <button data-number class="numeric-light">1</button>
+      <button data-number class="numeric-light">2</button>
+      <button data-number class="numeric-light">3</button>
+      <button data-operator class="operator-light">+</button>
+
+      <button data-number class="numeric-light">0</button>
+      <button data-number class="numeric-light">.</button>
+      <button data-equals class="operator-light span-two">=</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
