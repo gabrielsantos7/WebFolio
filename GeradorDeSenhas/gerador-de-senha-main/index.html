@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Gerador de Senha</h1> 
+    </header>
+
+    <section id="section">
+        <div id="lugarSenha">
+            <p id="p">A senha será gerada aqui</p>
+             <img src="Imagens/copy.png" id="imgCopy" alt="Copiar" height="50px">
+        </div>
+
+        <div id="requisitos">
+
+            <label class="switch">
+                <span class="switch-text">Maiúsculas</span>
+                <div class="switch-wrapper">
+                    <input type="checkbox" id="maiusculas"/>
+                    <span class="switch-button"></span>
+                </div>
+            </label>
+
+            <label class="switch">
+                <span class="switch-text">Números</span>
+                <div class="switch-wrapper">
+                    <input type="checkbox" id="numeros"/>
+                    <span class="switch-button"></span>
+                </div>
+            </label>
+            <label class="switch">
+                <span class="switch-text">Símbolos</span>
+                <div class="switch-wrapper">
+                    <input type="checkbox" id="simbolos"/>
+                    <span class="switch-button"></span>
+                </div>
+            </label>
+
+            <label class="switch">
+                <span class="switch-text">Tamanho</span>
+                 <input type="number" name="tamSenha" id="tamSenha" max="25" value="8"></label> 
+        </div>
+
+        <div id="btnGerar">Gerar</div>
+    </section>
+
+    <footer>
+        <p id="txtRodape">&copy;  <a href="https://github.com/gabrielsantos7" target="_blank">Gabriel Santos</a></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
