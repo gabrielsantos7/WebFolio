@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário Simples</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 id="h2">Criar uma conta</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome de usuário</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário..."
+            oninput="debugUser()"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+
+        <div class="form-control">
+          <label for="password">Senha</label>
+          <input type="password" oninput="debug()" id="password" placeholder="Digite sua senha..." />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit" id="button" onmouseenter="move()">ENVIAR</button>
+      </form>
+
+      <div id="message">
+        <p>
+          Verifique a caixa de entrada do seu e-mail. 
+        </p> 
+        <img src="loading.gif" alt="sucessful">
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/bf55e3f711.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
