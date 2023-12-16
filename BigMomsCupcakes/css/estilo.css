@@ -1,0 +1,424 @@
+@charset "utf-8";
+@font-face{
+    font-family: Regular;
+    src: url(../fontes/CherrySwash-Regular.ttf); 
+}
+    *,
+    *::after,
+    *::before{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    :root{
+        --cor-rosa-claro: #F8D9D6;
+        --cor-rosa-escuro: #D59292;
+        --cor-azul-claro: #84C3C8;
+        --cor-azul-escuro: #42929D;
+        --cor-bege: #fdfdfd;
+        --cor-fonte-branca: #FFFFFF;
+        --cor-fonte-preta: #000000;
+        --cor-fonte-marrom: #571d1d;
+        --fonte: 'cursive', 'roboto', 'arial', sans-serif;
+    }
+    
+    html{
+        font-size: 10px;
+    }
+    body{
+        background-color: var(--cor-azul-claro);
+        font-size: 1.6rem;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding:20px;
+        min-height: 190px;
+        background-color: var(--cor-rosa-claro);
+    }
+
+    .txt-alternativo{
+        display: none;
+    }
+
+    #menu > ul > li{
+        display: inline;
+        padding:5px;
+        font-family: cursive;
+        
+    } 
+
+    #menu{
+        margin-top: 160px;
+      
+    }
+
+    #contato{
+        margin-top: 110px;
+        font-family: cursive;
+        font-weight: 400;
+    }
+
+    #redes-sociais{
+       display: flex;
+       justify-content: space-between;
+      
+    }
+
+    #redes-sociais :hover{
+        filter: drop-shadow(2px 2px 0 #D59292);
+        transition: .6s;
+    }
+
+    #menu > ul > li a{
+        color: var(--cor-fonte-preta);
+        text-decoration: none;
+    }
+
+    .atual{
+        border-bottom: 2px solid black;
+    }
+
+    .imglogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        max-width:33.3%
+    }
+
+    #logomenu:hover {
+        filter: drop-shadow(5px 5px 0 #000000);
+        transition: .6s;
+    }
+
+    .contato{
+        align-self: baseline;
+    }
+
+    #background-cupcake{
+        background-image: url(../imagens/imgsemtxt.jpeg);
+        background-size: 100% 100%;
+        height: 720px;
+        text-align: center;
+        font-size: 1.6rem;
+        color:var(--cor-fonte-branca);
+        vertical-align: middle;
+        padding-top:300px; 
+    }
+
+    #titulo{
+        padding-bottom: 50px;
+        font-family: 'Regular', cursive;
+        src: url(../fontes/CherrySwash-Regular.ttf); 
+        font-size: 5.5rem;
+    }
+
+    #subtitulo{
+        font-family: cursive;
+        font-size: 2.9rem;
+    }
+
+    .cardap{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--cor-azul-escuro);
+        padding: 20px;
+        color:#FFFFFF;
+        font-family: Regular, sans-serif;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+        font-size: 1.6rem;
+        height: 100px;
+        text-align: center;
+        border-bottom: 2px solid #FFFFFF;
+    }
+
+    .cardap1{
+        width: 1440px;
+        font-family: Regular, sans-serif;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    }
+
+
+    .botoesp{
+       background-color: var(--cor-rosa-claro);
+       padding:15px 30px;
+       border-radius: 10px;
+       text-align: center;
+       color:var(--cor-fonte-marrom);
+       font-weight:700;
+       font-size: 2.3rem;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .botoesp:hover{
+        background-color: #FFC0CB;
+        color:var(--cor-fonte-marrom);
+        text-decoration: underline solid #571d1d ;
+        transition: .6s;
+    }
+
+    .botoesm{
+        background-color: var(--cor-rosa-claro);
+        padding:15px 30px;
+        border-radius: 10px;
+        color:var(--cor-fonte-marrom);
+        font-weight:700;
+        font-size: 2.3rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .botoesm:hover{
+         background-color: #FFC0CB;
+         color:var(--cor-fonte-marrom);
+         text-decoration: underline solid #571d1d ;
+         transition: .6s;
+    }
+
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+    #con{
+        text-align: center;
+        margin-top: 170px;
+    }
+
+    #equipe{
+        background-color:var(--cor-azul-claro);
+        padding-top: 50px;
+        margin-bottom: 50px;
+        justify-content: space-between;
+        display:flex;
+        color:#FFFFFF;
+        font-family: cursive;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+        height: 300px;
+        
+    }
+    #historia{
+        padding:50px;
+        background-color: var(--cor-rosa-claro);
+        display: grid;
+        justify-content: center;
+        color:var(--cor-fonte-preta);
+        font-family: cursive;
+      }
+
+    #alin{
+        text-align: center;
+        padding:50px;
+        }
+
+    .botaoazul{
+        background-color:var(--cor-azul-claro);
+        padding:15px;
+        width:300px;
+        border-radius: 10px;
+        color:var(--cor-fonte-marrom);
+        font-weight:700;
+        font-size: 2.3rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        align-items: center;
+        vertical-align: center;
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+    .botaoazul:hover{
+        background-color:var(--cor-azul-escuro);
+        color:var(--cor-fonte-marrom);
+        text-decoration: underline solid #571d1d;
+        transition: .6s;
+    }
+
+    .botao-c{
+        width: 83%;
+        background-color: var(--cor-rosa-escuro);
+        display:flex;
+        padding:15px 30px;
+        align-items: center;
+        height: 75px;
+        margin:auto;
+        border-radius: 10px;
+    }
+
+    .txt-btn{
+        color:var(--cor-bege);
+        font-family: cursive;
+        font-size: 3rem;
+    }
+
+    #mini-cardapio{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: var(--cor-azul-escuro);
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    #parte-cupcake{
+        margin-right: 20px;
+    }
+
+    .txt-cardapio{
+        color:var(--cor-fonte-preta);
+        font-family: cursive;
+        padding-bottom: 50px;
+        text-align: center;
+        padding-top:20px;
+       
+    }
+           
+    #local{
+        display: flex;
+    }
+
+    #reserva{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--cor-azul-escuro);
+        padding: 20px;
+        color:#FFFFFF;
+        font-family: 'Regular';
+        src: url(../fontes/CherrySwash-Regular.ttf); 
+        font-size: 1.6rem;
+        height: 100px;
+        text-align: center;
+    }
+
+    #fim{
+        display: flex;
+        justify-content: space-between;
+        vertical-align: center;
+        align-items: center;
+        text-align: center;
+        padding:20px;
+        background-color: var(--cor-azul-escuro);
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .tt-contato{
+        font-family: 'Regular';
+        src: url(../fontes/CherrySwash-Regular.ttf);
+
+    }
+    #mapinha{
+        padding-left: 300px;
+    }
+
+    .telefone{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #rodape{
+        display: flex;
+        justify-content: space-between;
+        padding:20px;
+        min-height: 190px;
+        background-color: var(--cor-rosa-claro);
+        align-items: baseline;
+    }
+
+    #insta{
+        font-family: 'Regular';
+        src: url(../fontes/CherrySwash-Regular.ttf);
+    }
+
+    #insta:hover{
+        text-decoration: underline solid black;
+        background-color: var(--cor-rosa-escuro);
+        color:var(--cor-bege);
+        transition: .6s;
+    }
+
+    h2{
+        font-size: 1.6rem;
+        font-weight: normal;
+        font-family: cursive;
+    }
+
+    h3{
+        font-size: 1.6rem;
+        font-weight: normal;
+        font-family: cursive;
+    }
+
+    p{
+        font-size: 1.6rem;
+        font-family: cursive, sans-serif;
+    }
+
+    .cardap > p{
+        font-family: Regular, sans-serif;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    }
+        
+    .conteudo-paginas form{
+        margin:2rem auto;
+        padding:20px;
+        max-width: 600px;
+        
+    }
+
+    .campo-formulario{
+        margin:10px;
+        font-family: cursive;
+    }
+
+    .campo-formulario input,
+    .campo-formulario select,
+    .campo-formulario textarea{
+        width: 100%;
+        padding:1rem;
+    }
+
+    .campo-formulario input[type=radio]{
+        width: initial;
+        margin: 0 1.5rem;
+        
+    }
+
+    .campo-formulario input[type=checkbox]{
+        width: initial;
+        margin: 1rem;
+    }
+    
+    .campo-formulario fieldset{
+        padding:2rem;
+    }
+
+    .btn-forms{
+        margin-top: 2rem;
+        padding:1rem;
+        cursor: pointer;
+    }
+
+    #botao-f{
+        text-align: center;
+    }
+
+    #tit2{
+        font-size: 2rem;
+        font-family: Regular, sans-serif;
+        src: url(../fontes/CherrySwash-Regular.ttf);
+        padding:2rem;
+        
+        color:var(--cor-fonte-marrom);
+
+
+    }

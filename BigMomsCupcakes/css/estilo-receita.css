@@ -1,0 +1,187 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Regular';
+    src: url(../fontes/CherrySwash-Regular.ttf); 
+}
+*,
+    *::after,
+    *::before{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+:root{
+    --cor-rosa-claro: #F8D9D6;
+    --cor-rosa-escuro: #D59292;
+    --cor-azul-claro: #84C3C8;
+    --cor-azul-escuro: #42929D;
+    --cor-bege: #fdfdfd;
+    --cor-fonte-branca: #FFFFFF;
+    --cor-fonte-preta: #000000;
+    --cor-fonte-marrom: #571d1d;
+    --fonte: 'cursive', 'roboto', 'arial', sans-serif;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: var(--cor-azul-claro);
+    font-size: 1.6rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    min-height: 190px;
+    background-color: var(--cor-rosa-claro);
+}
+
+.txt-alternativo{
+    display: none;
+}
+
+#menu > ul > li{
+    display: inline;
+    padding:5px;
+    font-family: cursive;
+} 
+
+#menu{
+    margin-top: 160px;
+}
+
+#contato{
+    margin-top: 110px;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+#redes-sociais{
+   display: flex;
+   justify-content: space-between;
+}
+
+#redes-sociais :hover{
+    filter: drop-shadow(2px 2px 0 #D59292);
+    transition: .6s;
+}
+
+#menu > ul > li a{
+    color: var(--cor-fonte-preta);
+    text-decoration: none;
+}
+
+.atual{
+    border-bottom: 2px solid black;
+}
+
+.imglogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#logomenu:hover {
+    filter: drop-shadow(5px 5px 0 #000000);
+    transition: .6s;
+}
+
+.contato{
+    align-self: baseline;
+}
+
+.atual{
+    border-bottom: 2px solid black;
+}
+
+
+h1{
+    color:#571d1d;
+    font-family: Regular, sans-serif;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    font-size: 2.5rem;
+    padding:20px;
+    padding-top: 15px;
+    text-align: center;
+    
+
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-family: cursive;
+}
+
+h3{
+    font-size: 1.6rem;
+    font-family: Regular, sans-serif;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    padding-top: 20px;
+    color:var(--cor-fonte-marrom);
+    
+}
+p{
+    font-family: cursive;
+   
+}
+
+
+
+li{
+    font-family: cursive, sans-serif;
+}
+
+.img-cardapio{
+    text-align: center;
+}
+
+#conteudo{
+    padding:20px 170px;
+    text-align: center;
+    
+    
+}
+
+ul{
+    list-style: none;
+}
+
+#img-bolo-no-pote{
+    padding-bottom:20px;
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    min-height: 190px;
+    background-color: var(--cor-rosa-claro);
+    align-items: baseline;
+}
+
+#insta{
+    font-family: 'Regular';
+    src: url(../fontes/CherrySwash-Regular.ttf);
+}
+
+#insta:hover{
+    text-decoration: underline solid black;
+    background-color: var(--cor-rosa-escuro);
+    color:var(--cor-bege);
+    transition: .6s;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+h4{font-family: Regular, sans-serif;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    color:var(--cor-fonte-branca);
+    font-size: 2rem;
+    text-align: center;
+    padding-top:50px;
+}

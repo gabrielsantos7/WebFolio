@@ -1,0 +1,241 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Regular';
+    src: url(../fontes/CherrySwash-Regular.ttf); 
+}
+*,
+    *::after,
+    *::before{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+:root{
+    --cor-rosa-claro: #F8D9D6;
+    --cor-rosa-escuro: #D59292;
+    --cor-azul-claro: #84C3C8;
+    --cor-azul-escuro: #42929D;
+    --cor-bege: #fdfdfd;
+    --cor-fonte-branca: #FFFFFF;
+    --cor-fonte-preta: #000000;
+    --cor-fonte-marrom: #571d1d;
+    --fonte: 'cursive', 'roboto', 'arial', sans-serif;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: var(--cor-azul-claro);
+    font-size: 1.6rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    background-color: var(--cor-azul-claro);
+    font-size: 1.6rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    min-height: 190px;
+    background-color: var(--cor-rosa-claro);
+}
+
+.txt-alternativo{
+    display: none;
+}
+
+#menu > ul > li{
+    display: inline;
+    padding:5px;
+    font-family: cursive;
+} 
+
+#menu{
+    margin-top: 160px;
+}
+
+#contato{
+    margin-top: 110px;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+#redes-sociais{
+   display: flex;
+   justify-content: space-between;
+}
+
+#redes-sociais :hover{
+    filter: drop-shadow(2px 2px 0 #D59292);
+    transition: .6s;
+}
+
+#menu > ul > li a{
+    color: var(--cor-fonte-preta);
+    text-decoration: none;
+}
+
+.atual{
+    border-bottom: 2px solid black;
+}
+
+.imglogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#logomenu:hover {
+    filter: drop-shadow(5px 5px 0 #000000);
+    transition: .6s;
+}
+
+.contato{
+    align-self: baseline;
+}
+
+.atual{
+    border-bottom: 2px solid black;
+}
+
+
+
+.intro{
+    padding:20px;
+}
+h1{
+    color:var(--cor-fonte-marrom);
+    font-family: Regular;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    font-size: 2.5rem;
+    padding-top:10px;
+    margin-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-family: cursive;
+    
+}
+
+h3{
+    color:var(--cor-fonte-marrom);
+    font-family: Regular, sans-serif;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    font-size: 1.6rem;
+    text-align: center;
+    padding:2rem;
+}
+h4{
+    font-family: Regular, sans-serif;
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    color:var(--cor-fonte-branca);
+    font-size: 2rem;
+    text-align: center;
+    padding-top:50px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+p{
+    font-family: cursive;
+    color:#FFFFFF;
+    margin-bottom: 20px;
+    padding:2rem;
+}
+
+.btn{
+    text-decoration: none;
+    padding:10px;
+    border-radius: 6px;
+    color:var(--cor-fonte-branca);
+    font-family: cursive;
+   
+}
+
+.btn:hover{
+    background-color: var(--cor-rosa-claro);
+        color:var(--cor-fonte-marrom);
+        text-decoration: underline solid #571d1d ;
+        transition: .6s;
+}
+
+.historia{
+    padding:20px;
+}
+
+figure{
+    font-family: cursive;
+    font-size: 1.3rem;
+    margin:20px auto;
+}
+.livro{
+    background-color: white;
+    width: 450px;
+    text-align: center;
+    padding-top: 5px;
+}
+.legenda15{
+    text-align: center;
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    min-height: 190px;
+    background-color: var(--cor-rosa-claro);
+    align-items: baseline;
+    
+}
+
+#insta{
+    font-family: 'Regular';
+    src: url(../fontes/CherrySwash-Regular.ttf);
+    color:var(--cor-fonte-preta);
+}
+
+#insta:hover{
+    text-decoration: underline solid black;
+    background-color: var(--cor-rosa-escuro);
+    color:var(--cor-bege);
+    transition: .6s;
+}
+
+#txt-insta{
+    color:var(--cor-fonte-preta);
+}
+
+#funcionarios{
+    padding:20px;
+}
+
+.funcio{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    padding-top: 5px;
+    display:grid;
+    margin-top:20px;
+    margin-left: 15px;
+}
+
+.agrup1{
+    display: flex;
+    padding-right: 20px;
+}
