@@ -1,0 +1,26 @@
+.bi {
+  font-size: 8rem;
+}
+
+.bi-telegram,
+.bi-threads-fill,
+.bi-facebook {
+  color: #fff;
+  &:hover {
+    color: #eee;
+  }
+}
+
+.bi-instagram {
+  color: #e1306c;
+  &:hover {
+    color: #c13584;
+  }
+}
+
+main > div {
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

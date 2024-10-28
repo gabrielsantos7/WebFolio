@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom CSS and JS -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <script src="assets/js/footer.js" defer></script>
+
+    <title>Gabriel Santos</title>
+  </head>
+  <body>
+    <h1 class="d-none">Gabriel Santos</h1>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-toggler"
+            aria-controls="nav-toggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-toggler">
+            <a class="navbar-brand font-jetbrains" href="#">Gabriel Santos</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Skills
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="skills.html#front-end"
+                      >Front-end</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="skills.html#back-end"
+                      >Back-end</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="skills.html#database"
+                      >Database</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero-section" class="position-relative">
+        <img src="assets/img/matrix.gif" alt="Hero Image" class="img-fluid" />
+        <div
+          class="position-absolute top-50 start-50 translate-middle text-center font-jetbrains"
+        >
+          <h2>Hello, my name is Gabriel Santos</h2>
+          <img
+            src="https://github.com/gabrielsantos7.png"
+            alt="Gabriel Santos"
+            class="mb-3"
+          />
+          <h3>Welcome to my website</h3>
+        </div>
+      </section>
+      <section class="container mt-3">
+        <h3 class="font-jetbrains fw-bold py-3">About me</h3>
+        <p class="fs-5">
+          My name is Gabriel Santos, i'm 19 years old, i'm Brazilian, and i'm
+          taking the CS50x course. I am passionate about any subject involving
+          technology, especially in the vast area of programming. I work and
+          study in my free time, always trying to learn new things.
+        </p>
+        <div class="mb-3">
+          <span class="badge bg-success">19 years old</span>
+          <span class="badge bg-success">Brazilian</span>
+          <span class="badge bg-success">CS50x</span>
+          <span class="badge bg-success">Programming</span>
+          <span class="badge bg-success">Technology</span>
+        </div>
+        <p class="fs-5">
+          My favorite exercise was Fiftyville, as it was very different from the
+          other exercises, the way the problem was approached and how to find
+          the solution, it was a very creative idea.
+        </p>
+        <p class="fs-5">
+          I took a technical course in IT at the Federal Institute of Education
+          (IFBA) and am studying Computer Science at Unopar/Anhanguera.
+        </p>
+        <div class="mb-3">
+          <span class="badge bg-info">Technical IT Course</span>
+          <span class="badge bg-info"
+            >Federal Institute of Education (IFBA)</span
+          >
+          <span class="badge bg-info">Computer Science</span>
+          <span class="badge bg-info">Unopar/Anhanguera</span>
+        </div>
+        <p class="fs-5">
+          In my free time, I like to ride my bike, enjoy the beauty of our
+          natural landscapes, go out with friends, play card games (The Uno game
+          is very popular in our country) and whenever I can, develop new
+          projects in the technology area.
+        </p>
+        <div class="mb-3">
+          <span class="badge bg-warning text-dark">Cycling</span>
+          <span class="badge bg-warning text-dark">Nature</span>
+          <span class="badge bg-warning text-dark">Friends</span>
+          <span class="badge bg-warning text-dark">Card Games</span>
+          <span class="badge bg-warning text-dark">Uno</span>
+          <span class="badge bg-warning text-dark">Technology Projects</span>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center py-3 fs-5 bg-black">
+      <p id="footer-info"></p>
+    </footer>
+  </body>
+</html>
