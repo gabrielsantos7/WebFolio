@@ -44,4 +44,6 @@ Neste repositório, são utilizadas as seguintes tecnologias:
 
 [Vasco](https://gabrielsantos7.github.io/WebFolio/Vasco/) - Mostra a realidade do torcedor vascaíno.
 
+[TextTool](https://gabrielsantos7.github.io/WebFolio/TextTool/) - Ferramenta que auxilia na manipulação de textos.
+
 Espero que estes projetos sejam úteis para você! Divirta-se codando! 😄
